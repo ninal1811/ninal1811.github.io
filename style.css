@@ -81,6 +81,13 @@ p {
     font-family: 'Nanum Pen Script', cursive;
 }
 
+.title {
+    font-family: 'Gochi Hand', cursive;
+}
+
+.center {
+    text-align: center;
+}
 .container-fluid {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -112,6 +119,9 @@ p {
     color: #ffffff;
 }
 
+.nav-link {
+    color: #c6c2bc;
+}
 .navbar-nav li a:hover {
     color: #ffffff !important;
 }
