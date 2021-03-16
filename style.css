@@ -5,14 +5,11 @@ html, body {
 body {
     font: 30px Montserrat, sans-serif;
     line-height: 1.8;
+    text-transform: uppercase;
 }
 
 p {
     font-size: 20px;
-}
-
-a {
-    color: #c6c2bc;
 }
 
 #logo, .project-img {
@@ -33,26 +30,51 @@ a {
     margin-bottom: 15px;
 }
 
-
 .bg {
     background-color: #000000;
 }
 
 .bg-1 {
-    background-image: linear-gradient(#ffffff, #ffffff, #ffffff, #cccccc, #888888, #444444, #000000, #000000);
     color: #ffffff;
+    /*background-image: linear-gradient(#ffffff, #ffffff, #ffffff, #cccccc, #888888, #444444, #000000, #000000);*/
+}
+
+.book a {
+    color: #000000;
+}
+
+.book a:hover {
+    color: #c6c2bc;
 }
 
 .card {
-    color: #74868a;
+    color: #000000;
     text-align: left;
+}
+
+.card a {
+    color: #c6c2bc;
+}
+
+.card a:hover {
+    color: #000000;
 }
 
 .card-body {
     background-color: #ffffff;
 }
+
 .card-title {
     font-weight: 700;
+}
+
+.card-text {
+    line-height: 1;
+    font-size: 20px;
+}
+
+.card-link {
+    font-size: 25px;
 }
 
 .container {
@@ -62,9 +84,10 @@ a {
 .container-fluid {
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #6c7175;
+    color: #000000;
     font-family: 'Gochi Hand', cursive;
 }
+
 .container-fluid1 {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -86,6 +109,7 @@ a {
     letter-spacing: 3px;
     text-transform: uppercase;
     font-family: 'Gochi Hand', cursive;
+    color: #ffffff;
 }
 
 .navbar-nav li a:hover {
