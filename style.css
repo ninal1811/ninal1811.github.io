@@ -3,17 +3,16 @@ html, body {
 }
 
 body {
-    font: 20px Montserrat, sans-serif;
+    font: 30px Montserrat, sans-serif;
     line-height: 1.8;
-    color: #f5f6f7;
 }
 
 p {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 a {
-    color: #2e72a1;
+    color: #c6c2bc;
 }
 
 #logo, .project-img {
@@ -21,58 +20,74 @@ a {
 }
 
 #fork img{
-    height: 25px;
-    margin-bottom: 25px;
+    height: 15px;
+    margin-bottom: 15px;
     filter: invert(1);
 }
 
 #sep {
-    height: 75px;
+    height: 45px;
 }
 
 .margin {
-    margin-bottom: 45px;
+    margin-bottom: 15px;
+}
+
+
+.bg {
+    background-color: #000000;
 }
 
 .bg-1 {
-    background-color: #ffffff; /* White */
-    color: #555555;
-}
-
-.bg-2 {
-    background-color: #2e72a1; /* Blue */
+    background-image: linear-gradient(#ffffff, #ffffff, #ffffff, #cccccc, #888888, #444444, #000000, #000000);
     color: #ffffff;
 }
 
 .card {
-    color: black;
+    color: #74868a;
     text-align: left;
 }
 
+.card-body {
+    background-color: #ffffff;
+}
 .card-title {
     font-weight: 700;
 }
 
-.bg-3 {
-    background-color: #000000; /* Black */
-    color: #ffffff;
+.container {
+    font-family: 'Nanum Pen Script', cursive;
 }
 
 .container-fluid {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #6c7175;
+    font-family: 'Gochi Hand', cursive;
+}
+.container-fluid1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    font-family: 'Gochi Hand', cursive;
+}
+
+.ownerName {
+    font-size: 30px;
 }
 
 .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: 'Gochi Hand', cursive;
 }
 
 .navbar-nav li a:hover {
-    color: #2e72a1 !important;
+    color: #ffffff !important;
 }
