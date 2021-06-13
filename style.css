@@ -30,6 +30,10 @@ p {
     margin-bottom: 15px;
 }
 
+.content {
+    font-family: 'Single Day', cursive;
+}
+
 .bg {
     background-color: #000000;
 }
@@ -40,11 +44,11 @@ p {
 }
 
 .book a {
-    color: #000000;
+    color: #808080;
 }
 
 .book a:hover {
-    color: #c6c2bc;
+    color: #000000;
 }
 
 .card {
@@ -53,7 +57,7 @@ p {
 }
 
 .card a {
-    color: #c6c2bc;
+    color: #808080;
 }
 
 .card a:hover {
@@ -66,6 +70,12 @@ p {
 
 .card-title {
     font-weight: 700;
+    font-family: 'Hi Melody', cursive;
+}
+
+.card-subtitle {
+    font-size: 13px;
+    font-family: 'Combo', cursive;
 }
 
 .card-text {
@@ -75,6 +85,7 @@ p {
 
 .card-link {
     font-size: 25px;
+    font-family: 'Hi Melody', cursive;
 }
 
 .container {
@@ -82,7 +93,8 @@ p {
 }
 
 .title {
-    font-family: 'Gochi Hand', cursive;
+    font-family: 'Hi Melody', cursive;
+    font-size: 45px;
 }
 
 .center {
@@ -120,7 +132,7 @@ p {
 }
 
 .nav-link {
-    color: #c6c2bc;
+    color: #808080;
 }
 .navbar-nav li a:hover {
     color: #ffffff !important;
